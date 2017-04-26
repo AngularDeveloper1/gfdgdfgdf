@@ -1,0 +1,228 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+table { outline: none!important; }
+.container{
+	width:1024px;
+	height:800px;
+	margin:0 auto;
+	background:url('../images/Rabbit.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.row-fluid{
+	width: 90%;
+    margin: 40px auto;
+    background: rgba(0,0,0,0.3);
+    transition: all .3s;
+    opacity: 1;
+    padding: 15px;
+}
+.aside{
+	width: 77%;
+    display: inline-block;
+    padding: 15px;
+	box-shadow: 4px 3px 15px lightsalmon;
+	background:#ffffff;
+}
+.cellImage{
+	width:80%;
+	height:80%;
+}
+.nav{
+	width: 15%;
+	margin-left: 1%;
+    display: inline-block;
+    box-shadow: 4px 3px 15px lightsalmon;
+    overflow-y:visible;
+    padding: 15px;
+	vertical-align:top;
+	background:#ffffff;
+}
+.navigateKey{
+	height:618px;
+    overflow:auto;
+}
+.tble-main{
+	width:100%;
+	border:solid 0px forestgreen;
+}
+.border-top{
+	border-top:solid 2px forestgreen!important;
+}
+.border-right{
+	border-right:solid 2px forestgreen!important;
+}
+.border-bottom{
+	border-bottom:solid 2px forestgreen!important;
+}
+.border-left{
+	border-left:solid 2px forestgreen!important;
+}
+.tble-main tr td{
+	height:100px;
+	width:100px;
+	border:solid 1px forestgreen;
+}
+.hidden-td{
+	height:0px!important;
+	width:0px!important;
+	font-size:0px;
+	border:none!important;
+}
+.selected{
+	background:url('../images/side_image_2.png') no-repeat;
+	background-size: 45% 80% !important;
+	background-position: center;
+ 	position: relative;
+    /*transition: 1s;
+	transform: translateX(0, 100%);*/
+	/* transform: translate(100%,0);
+  -webkit-transform: translate(100%,0);
+  -moz-transform: translate(100%,0);
+  -o-transform: translate(100%,0);
+  -ms-transform: translate(100%,0); */
+	
+}
+ .selected:hover {
+    /*transform: translate(-100%);
+    -webkit-transform: translate(-100%); /** Chrome & Safari **/
+  /*-o-transform: translate(-100%); /** Opera **/
+   /*-moz-transform: translate(-100%); /** Firefox **//* */
+} 
+.selectedd{
+	background:url('../images/1.jpg') no-repeat!important;
+	background-size: 70% 80% !important;
+	background-position: center!important;
+}
+.event-braket{
+	width:90%;
+	margin:auto;
+}
+.event-nav{
+	width:100px;
+	height:auto;
+	display:inline-block
+}
+.event-nav-block{
+	height:100px;
+	border:solid 2px #000001;
+	border-radius:10px;
+}
+.object-left{
+	background:url('../images/3.jpeg') no-repeat;
+	background-position: center;
+	background-size: 70% 80% !important;
+	height:100%;
+	width:100%;
+	display:inline-block;
+}
+.reset-nav{
+	text-align: center;
+    width: 100%;
+    margin-top: -20px;
+}
+.btn{
+	border: solid 1px #000001;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font: 400 28px Century Gothic;
+    border-radius: 15px;
+    background: #ffffff;
+}
+#apend, #apend1{
+	width:65%;
+	margin:auto;
+	text-align:center;
+}
+.md-overlay {
+    opacity: 1;
+    visibility:visible;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:1;
+    background: rgba(0,0,0,0.3);
+    transition: all .3s;
+}
+
+
+.pop-container{
+	position:fixed;
+	width: 600px;
+	height:400px;
+	z-index: 2;
+    background: blanchedalmond;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	border:solid 1px #000001;
+	border-radius:50px;
+	overflow:hidden;
+} 
+.pop-containar{
+	position:fixed;
+	width: 600px;
+	height:400px;
+	z-index: 2;
+    background: blanchedalmond;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	border:solid 1px #000001;
+	border-radius:50%;
+	overflow:hidden;
+	text-align:center;
+	display:none;
+} 
+.oh-font p{
+	font-size:35px !important;
+	padding-top:60px !important;
+}
+.pop-containar p{
+	text-align:center;
+	font:600 40px calibri;
+	padding-top:25px;
+	margin-bottom:5px;
+}
+.select-event{
+	text-align:center;
+	display:block;
+}
+.select-event p{
+	text-align: center;
+    font: 500 20px calibri;
+    padding: 20px;
+}
+.select-event img{
+	padding: 15px 15px 15px 20px;
+}
+/*
+.tble-main{
+	margin:50px auto;
+	background: #ffffff;
+	opacity:0.7;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid red;
+	border-bottom: 50px solid transparent;
+}
+ */
